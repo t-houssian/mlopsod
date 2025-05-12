@@ -71,18 +71,16 @@ export default function Bio() {
         <div className="bio-text">
           <h2>Sarah Stanton — COO</h2>
           <p>
-            Sarah is an up-and-coming business operations expert with experience
-            scaling process and performance in fast-paced busniess environments.
+            I am an up-and-coming business operations expert. New to tech but a keen learner.
           </p>
           <p>
-            Known for implementing lean methodologies and cross-functional collaboration,
-            Sarah has driven efficiency gains of up to 30% in previous roles by optimizing
+            I'm known for implementing lean methodologies and cross-functional collaboration,
             workflows, budgets, and resource allocation.
           </p>
           <p>
-            Sarah studied aerospace engineering and is rapidly expanding hero
+            I studied aerospace engineering and am rapidly expanding my
             skills in data science and machine learning.
-            She is passionate about building the processes that power next-generation AI
+            I am passionate about building the processes that power next-generation AI
             solutions at scale.
           </p>
         </div>

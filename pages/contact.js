@@ -16,6 +16,9 @@ export default function Contact() {
             thous@mlopsod.io
           </a>
         </p>
+        <p>
+          We will get back to you within 24 hours. Look forward to hearing from you!
+        </p>
       </section>
     </>
   )
