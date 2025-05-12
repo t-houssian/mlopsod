@@ -52,6 +52,15 @@ a:hover {
   border-bottom: 1px solid var(--color-gold);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+.logo img {
+  object-fit: contain;
+  border-radius: 4px;
+}
 .navbar a {
   margin-left: 2rem;
   font-weight: 600;
@@ -71,8 +80,7 @@ a:hover {
 .navbar a:hover::after {
   width: 100%;
 }
-
-/* Hamburger button */
+/* Hamburger */
 .hamburger {
   display: none;
   background: none;
@@ -80,8 +88,6 @@ a:hover {
   color: var(--color-gold);
   cursor: pointer;
 }
-
-/* Default nav-links layout */
 .nav-links {
   display: flex;
   align-items: center;
@@ -93,6 +99,9 @@ a:hover {
   padding: 4rem;
   border-radius: 12px;
   margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .hero h1 {
   font-family: var(--font-tech);
@@ -111,6 +120,8 @@ a:hover {
 /* BUTTON */
 .btn-gold {
   display: inline-block;
+  width: auto;                /* ensure auto-width on desktop */
+  max-width: 250px;           /* cap to a reasonable size */
   padding: 1rem 2rem;
   border-radius: 50px;
   border: 2px solid var(--color-gold);
@@ -118,6 +129,7 @@ a:hover {
   color: var(--color-gold);
   font-weight: 600;
   letter-spacing: 1px;
+  text-align: center;
   transition: all 0.3s ease;
 }
 .btn-gold:hover {
@@ -227,24 +239,15 @@ a:hover {
   color: var(--color-white);
 }
 
-/* Responsive tweaks */
+/* ---- MOBILE & iPhone FIXES ---- */
 @media (max-width: 768px) {
-  .bio-section {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .bio-photo {
-    margin-bottom: 1rem;
-  }
-
+  /* Navbar */
   .hamburger {
     display: block;
   }
-
   .nav-links {
     position: absolute;
-    top: 100%;
+    top: 60px;
     right: 0;
     background: var(--color-bg-alt);
     flex-direction: column;
@@ -259,29 +262,57 @@ a:hover {
     transition: opacity 0.3s ease, transform 0.3s ease;
     z-index: 10;
   }
-
   .nav-links.active {
     opacity: 1;
     transform: translateY(0);
     pointer-events: auto;
   }
-
   .nav-links a {
-    margin: 0; /* reset desktop spacing */
+    margin: 0;
     padding: 0.5rem 0;
     font-size: 1.1rem;
     text-align: right;
   }
+
+  /* Hero adjustments */
+  .hero {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  .hero p {
+    font-size: 1rem;
+    max-width: 100%;
+    margin: 0 auto 1.5rem;
+  }
+  .btn-gold {
+    width: 100%;    /* full width on mobile */
+    max-width: none;
+    padding: 0.75rem 0;
+    margin: 0 auto;
+  }
+
+  /* Container & section padding */
+  .container {
+    padding: 1rem 0;
+  }
+  .section {
+    padding: 3rem 0;
+  }
+  .section h2 {
+    font-size: 2rem;
+  }
 }
 
-/* Navbar logo tweaks */
-.logo {
-  display: flex;
-  align-items: center;
-  margin-right: 2rem;
-}
-.logo img {
-  /* Next.js Image outputs <img> under the hood; this ensures it stays crisp */
-  object-fit: contain;
-  border-radius: 4px;
+/* VERY SMALL SCREENS */
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .section h2 {
+    font-size: 1.75rem;
+  }
 }
