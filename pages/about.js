@@ -15,6 +15,13 @@ export default function About() {
           open-source–based infrastructure deployments (Metaflow • Argo • Kubernetes)
           alongside AI integration, advisory, and JupyterHub enablement.
         </p>
+        <p>
+            Have a business modle your looking to stand up in a matter of weeks?
+            We can help you get there. Our team of experts will work with you to
+            understand your specific needs and develop a customized solution that
+            meets your requirements. We have a proven track record of delivering
+            high-quality solutions!
+        </p>
       </section>
 
       <section className="section">
@@ -31,17 +38,17 @@ export default function About() {
         </p>
         <ul>
           <li>
-            <strong>Discovery Sprints (1–2 weeks | $10K):</strong> Architecture audit,
+            <strong>Discovery Sprints (1 sprint | $25K):</strong> Architecture audit,
             AI use-case assessment, and MLOps roadmap. Deliverable: detailed playbook
             with ROI projections.
           </li>
           <li>
-            <strong>Deployment Sprints (2–4 weeks | $30K):</strong> Cluster provisioning,
+            <strong>Deployment Sprints (1 sprint | $60K):</strong> Cluster provisioning,
             Metaflow + Argo IaC modules, example pipelines, monitoring
             (Prometheus/Grafana), and customized JupyterHub authenticator/spawner with CI/CD.
           </li>
           <li>
-            <strong>JupyterHub Enablement (2–4 weeks | $20K):</strong> Multi-tenant
+            <strong>JupyterHub Enablement (1 sprint | $30K):</strong> Multi-tenant
             notebook design, SSO/LDAP integration, resource limit configuration,
             and monitoring & alerting setup.
           </li>

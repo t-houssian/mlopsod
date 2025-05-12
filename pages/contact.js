@@ -12,8 +12,8 @@ export default function Contact() {
         <p>Ready to accelerate your MLOps journey? Reach out:</p>
         <p>
           Email:{' '}
-          <a href="mailto:thous@mlopsod.io">
-            thous@mlopsod.io
+          <a href="mailto:contact@mlopsod.io">
+           contact@mlopsod.io
           </a>
         </p>
         <p>

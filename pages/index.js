@@ -15,7 +15,8 @@ export default function Home() {
       <section className="hero">
         <h1>Build ML & AI Infrastructure Fast</h1>
         <p>
-          Turnkey, open-source–based infrastructure deployments (Metaflow • Argo • Kubernetes)
+          Turnkey, open-source infrastructure deployments (Metaflow • Argo • Kubernetes) stood up in a
+          single sprint
         </p>
         <Link href="/contact" className="btn-gold">
           Get in Touch
@@ -26,7 +27,7 @@ export default function Home() {
         <h2>Our Mission</h2>
         <p>
           Empower SaaS startups to operationalize ML and AI at cloud-scale using
-          vendor-agnostic, open-source tooling.
+          vendor-agnostic, open-source tooling as fast as possible.
         </p>
         <p>
           We do things differently. We are not a traditional consulting firm. We work
