@@ -241,78 +241,68 @@ a:hover {
 
 /* ---- MOBILE & iPhone FIXES ---- */
 @media (max-width: 768px) {
-  /* Navbar */
-  .hamburger {
-    display: block;
+    /* Container: add horizontal padding */
+    .container {
+      padding: 1rem; /* top/bottom 1rem, left/right 1rem */
+    }
+  
+    /* Navbar dropdown… (unchanged) */
+    .hamburger { display: block; }
+    .nav-links {
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background: var(--color-bg-alt);
+      flex-direction: column;
+      width: 200px;
+      padding: 1rem;
+      gap: 1rem;
+      border-left: 1px solid var(--color-gold);
+      border-bottom: 1px solid var(--color-gold);
+      opacity: 0;
+      transform: translateY(-10px);
+      pointer-events: none;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      z-index: 10;
+    }
+    .nav-links.active {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+    .nav-links a {
+      margin: 0;
+      padding: 0.5rem 0;
+      font-size: 1.1rem;
+      text-align: right;
+    }
+  
+    /* Hero: already padded, centered */
+    .hero {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+  
+    /* Button stays full-width */
+    .btn-gold {
+      width: 100%;
+      max-width: none;
+      padding: 0.75rem 0;
+      margin: 0 auto;
+    }
+  
+    /* SECTION: add horizontal padding */
+    .section {
+      padding: 3rem 1rem;  /* vertical 3rem, horizontal 1rem */
+    }
+    .section h2 {
+      font-size: 2rem;
+    }
+  
+    /* Very small screens… */
+    @media (max-width: 480px) {
+      .hero h1 { font-size: 2rem; }
+      .section h2 { font-size: 1.75rem; }
+    }
   }
-  .nav-links {
-    position: absolute;
-    top: 60px;
-    right: 0;
-    background: var(--color-bg-alt);
-    flex-direction: column;
-    width: 200px;
-    padding: 1rem;
-    gap: 1rem;
-    border-left: 1px solid var(--color-gold);
-    border-bottom: 1px solid var(--color-gold);
-    opacity: 0;
-    transform: translateY(-10px);
-    pointer-events: none;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    z-index: 10;
-  }
-  .nav-links.active {
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: auto;
-  }
-  .nav-links a {
-    margin: 0;
-    padding: 0.5rem 0;
-    font-size: 1.1rem;
-    text-align: right;
-  }
-
-  /* Hero adjustments */
-  .hero {
-    padding: 2rem 1rem;
-    text-align: center;
-  }
-  .hero h1 {
-    font-size: 2.5rem;
-    line-height: 1.2;
-  }
-  .hero p {
-    font-size: 1rem;
-    max-width: 100%;
-    margin: 0 auto 1.5rem;
-  }
-  .btn-gold {
-    width: 100%;    /* full width on mobile */
-    max-width: none;
-    padding: 0.75rem 0;
-    margin: 0 auto;
-  }
-
-  /* Container & section padding */
-  .container {
-    padding: 1rem 0;
-  }
-  .section {
-    padding: 3rem 0;
-  }
-  .section h2 {
-    font-size: 2rem;
-  }
-}
-
-/* VERY SMALL SCREENS */
-@media (max-width: 480px) {
-  .hero h1 {
-    font-size: 2rem;
-  }
-  .section h2 {
-    font-size: 1.75rem;
-  }
-}
+  
