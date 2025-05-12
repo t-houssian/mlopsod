@@ -42,6 +42,14 @@ export default function Home() {
           Our team has extensive experience in building and deploying ML and AI
           infrastructure, and we are committed to helping you achieve your goals.
         </p>
+        <p>
+          As a premium niche consulting firm, we offer a range of services to help
+          you build and deploy your ML and AI infrastructure. Our services include
+          architecture audits, AI use-case assessments, MLOps roadmaps, cluster
+          provisioning, Metaflow + Argo IaC modules, example pipelines, monitoring
+          (Prometheus/Grafana), and customized JupyterHub authenticator/spawner with
+          CI/CD.
+        </p>
       </section>
 
       <section className="section">
