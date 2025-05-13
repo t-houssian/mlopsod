@@ -4,7 +4,7 @@ const services = [
   {
     title: 'Discovery Sprint',
     timeframe: '1 sprint',
-    price: '$25K',
+    price: '25K',
     bullets: [
       'Architecture audit',
       'AI use-case assessment',
@@ -15,7 +15,7 @@ const services = [
   {
     title: 'Deployment Sprint',
     timeframe: '1 sprint',
-    price: '$60K',
+    price: '60K',
     bullets: [
       'Cluster provisioning',
       'Metaflow + Argo IaC modules',
