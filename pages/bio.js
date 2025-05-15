@@ -66,7 +66,7 @@ export default function Bio() {
       {/* COO */}
       <section className="section bio-section">
         <div className="bio-photo">
-          <img src="/photos/sarah-stanton.jpg" alt="Sarah Stanton" />
+          <img src="/photos/sarah-stanton.png" alt="Sarah Stanton" />
         </div>
         <div className="bio-text">
           <h2>Sarah Stanton — COO</h2>
