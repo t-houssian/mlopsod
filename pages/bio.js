@@ -62,29 +62,6 @@ export default function Bio() {
           </p>
         </div>
       </section>
-
-      {/* COO */}
-      <section className="section bio-section">
-        <div className="bio-photo">
-          <img src="/photos/sarah-stanton.png" alt="Sarah Stanton" />
-        </div>
-        <div className="bio-text">
-          <h2>Sarah Stanton — COO</h2>
-          <p>
-            I am an up-and-coming business operations expert. New to tech but a keen learner.
-          </p>
-          <p>
-            I'm known for implementing lean methodologies and cross-functional collaboration,
-            workflows, budgets, and resource allocation.
-          </p>
-          <p>
-            I studied aerospace engineering and am rapidly expanding my
-            skills in data science and machine learning.
-            I am passionate about building the processes that power next-generation AI
-            solutions at scale.
-          </p>
-        </div>
-      </section>
     </>
   )
 }
