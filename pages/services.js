@@ -4,7 +4,7 @@ const services = [
   {
     title: 'Discovery Sprint',
     timeframe: '1 sprint',
-    price: '$25K',
+    price: '$5K',
     bullets: [
       'Architecture audit',
       'AI use-case assessment',
@@ -15,7 +15,7 @@ const services = [
   {
     title: 'Deployment Sprint',
     timeframe: '1 sprint',
-    price: '$60K',
+    price: '$15K',
     bullets: [
       'Cluster provisioning',
       'Metaflow + Argo IaC modules',
@@ -27,7 +27,7 @@ const services = [
   {
     title: 'AI Integration Advisory Sprint',
     timeframe: '1 sprint',
-    price: '$25K',
+    price: '$5K',
     bullets: [
       'AI architecture audit',
       'AI use-case assessment',
@@ -38,7 +38,7 @@ const services = [
   {
     title: 'AI Deployment Sprint',
     timeframe: '1 sprint',
-    price: '$60K',
+    price: '$15K',
     bullets: [
       'Inference pipeline implementation',
       'Feature store setup',
@@ -48,7 +48,7 @@ const services = [
   {
     title: 'JupyterHub Enablement',
     timeframe: '1 sprint',
-    price: '$30K',
+    price: '$15K',
     bullets: [
       'Multi-tenant notebook environment design',
       'SSO/LDAP integration',

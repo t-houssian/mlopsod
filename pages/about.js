@@ -12,8 +12,8 @@ export default function About() {
         <p>
           MLOps On Demand (MLOps OD) is a premium, niche consulting firm poised to transform the
           booming MLOps and AI landscape. We deliver turnkey, open-source–based infrastructure
-          deployments&mdash;Metaflow &bull; Argo &bull; Kubernetes&mdash;alongside AI integration
-          advisory and JupyterHub enablement.
+          deployments (Metaflow &bull; Argo &bull; Kubernetes), AI integration,
+          architecture advisory, and JupyterHub enablement.
         </p>
         <p>
           Have a business model you need operational in weeks? We can help. Our team of experts
@@ -31,16 +31,16 @@ export default function About() {
         </p>
         <ul>
           <li>
-            <strong>Discovery Sprint (1 sprint | $25K):</strong> Architecture audit, AI use-case
+            <strong>Discovery Sprint (1 sprint | $5K):</strong> Architecture audit, AI use-case
             assessment, and MLOps roadmap. Deliverable: detailed playbook with ROI projections.
           </li>
           <li>
-            <strong>Deployment Sprint (1 sprint | $60K):</strong> Cluster provisioning, Metaflow+
+            <strong>Deployment Sprint (1 sprint | $15K):</strong> Cluster provisioning, Metaflow+
             Argo IaC modules, example pipelines, monitoring (Prometheus/Grafana), and a customized
             JupyterHub authenticator/spawner with CI/CD integration.
           </li>
           <li>
-            <strong>JupyterHub Enablement (1 sprint | $30K):</strong> Multi-tenant notebook
+            <strong>JupyterHub Enablement (1 sprint | $15K):</strong> Multi-tenant notebook
             environment design, SSO/LDAP integration, resource-limit configuration, and
             monitoring & alerting setup.
           </li>

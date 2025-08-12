@@ -13,8 +13,8 @@ export default function Contact() {
         <p>Ready to accelerate your MLOps journey? Reach out:</p>
         <p>
           Email:{' '}
-          <a href="mailto:contact@mlopsod.io">
-           contact@mlopsod.io
+          <a href="mailto:mlopsod@gmail.com">
+           mlopsod@gmail.com
           </a>
         </p>
         <p>
@@ -29,7 +29,7 @@ export default function Contact() {
       <section className="section">
         <h2>Pick a Time on Our Calendar</h2>
         <iframe
-          src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3F4ac1vzm9IHWwDdteVORllRSGs2fy_YA970sfsHFs0TQU13zQbfk2OngFDDdQphka9FfX4Suh?gv=true"
+          src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3o3P3ZFe9hsGk3PSFzhSb7Jvlu-4KXjJnjSnu_Fh7XyfxMQ-vmOAJc8S7woPK1TCLLCHkP2_Gm?gv=true"
           style={{ width: '100%', height: '800px', border: 0 }}
           loading="lazy"
         />
